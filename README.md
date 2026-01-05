@@ -92,6 +92,10 @@ GET /api/movies/{id}/recommendations
 * `GET /api/reviews/movie/{movieId}/average-rating` - получить средний рейтинг фильма
 
 ## Запуск
+**Сборка:**
+mvn clean install
+**Запуск:**
+mvn spring-boot:run
 
 ### Фронтенд
 
