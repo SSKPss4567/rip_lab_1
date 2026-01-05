@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache

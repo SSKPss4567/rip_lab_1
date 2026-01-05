@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог фильмов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Каталог фильмов</h1>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="movies">Фильмы</button>
+            <button class="tab-btn" data-tab="directors">Режиссеры</button>
+            <button class="tab-btn" data-tab="genres">Жанры</button>
+            <button class="tab-btn" data-tab="reviews">Отзывы</button>
+        </nav>
+
+        <div id="movies-tab" class="tab-content active">
+            <div class="section-header">
+                <h2>Фильмы</h2>
+                <button class="btn btn-primary" onclick="showMovieForm()">Добавить фильм</button>
+            </div>
+            <div id="movies-list" class="list-container"></div>
+        </div>
+
+        <div id="directors-tab" class="tab-content">
+            <div class="section-header">
+                <h2>Режиссеры</h2>
+                <button class="btn btn-primary" onclick="showDirectorForm()">Добавить режиссера</button>
+            </div>
+            <div id="directors-list" class="list-container"></div>
+        </div>
+
+        <div id="genres-tab" class="tab-content">
+            <div class="section-header">
+                <h2>Жанры</h2>
+                <button class="btn btn-primary" onclick="showGenreForm()">Добавить жанр</button>
+            </div>
+            <div id="genres-list" class="list-container"></div>
+        </div>
+
+        <div id="reviews-tab" class="tab-content">
+            <div class="section-header">
+                <h2>Отзывы</h2>
+                <button class="btn btn-primary" onclick="showReviewForm()">Добавить отзыв</button>
+            </div>
+            <div id="reviews-list" class="list-container"></div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

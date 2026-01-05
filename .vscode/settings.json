@@ -1,0 +1,19 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Program Files\\Java\\jdk-21",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-21",
+    "java.configuration.maven.userSettings": null,
+    "java.import.maven.enabled": true,
+    "java.maven.downloadSources": true,
+    "java.maven.downloadJavadoc": true,
+    "java.project.referencedLibraries": [
+        "target/classes/**/*.jar"
+    ]
+}
