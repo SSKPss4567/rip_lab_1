@@ -151,12 +151,12 @@ chmod +x setup_database.sh
 * **Password**: `admin`
 
 3. **Запустить приложение:**
-сборка
-```mvn clean install  
-```
-запуск
-```mvn spring-boot:run
-```
+
+**Сборка:**
+mvn clean install
+**Запуск:**
+mvn spring-boot:run
+
 В качестве БД используется PostgreSQL. В файле `/src/main/resources/application.properties` указаны параметры БД:
 * порт (5432)
 * логин пользователя (admin)
